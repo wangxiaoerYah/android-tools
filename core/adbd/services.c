@@ -20,7 +20,7 @@
 #include <string.h>
 #include <errno.h>
 #include <pwd.h>
-#include <sys/cdefs.h>
+// #include <sys/cdefs.h>
 
 #include "sysdeps.h"
 
