@@ -23,7 +23,7 @@
 #include <string.h>
 #include <linux/reboot.h>
 #include <sys/syscall.h>
-#include <sys/cdefs.h>
+// #include <sys/cdefs.h>
 
 #include <cutils/android_reboot.h>
 

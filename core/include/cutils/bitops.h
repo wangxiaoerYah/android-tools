@@ -17,9 +17,12 @@
 #ifndef __CUTILS_BITOPS_H
 #define __CUTILS_BITOPS_H
 
-#include <sys/cdefs.h>
+// #include <sys/cdefs.h>
 
-__BEGIN_DECLS
+// __BEGIN_DECLS
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 static inline int popcount(unsigned int x)
 {
@@ -36,6 +39,9 @@ static inline int popcountll(unsigned long long x)
     return __builtin_popcountll(x);
 }
 
-__END_DECLS
+// __END_DECLS
+#ifdef __cplusplus
+}
+#endif
 
 #endif /* __CUTILS_BITOPS_H */

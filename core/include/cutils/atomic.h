@@ -18,7 +18,7 @@
 #define ANDROID_CUTILS_ATOMIC_H
 
 #include <stdint.h>
-#include <sys/types.h>
+// #include <sys/types.h>
 
 #ifdef __cplusplus
 extern "C" {
